@@ -1,0 +1,66 @@
+html {
+  font-size: 62.5%;
+}
+
+#section1,
+#section2 {
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f2efef;
+}
+
+#section1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+#section2 {
+  font-family: "Courier New";
+}
+
+p,
+p.c {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+p.c {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+#btn__size,
+#btn__family {
+  padding: 1rem;
+  background-color: #453f86;
+  color: white;
+  border-radius: 5px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 4rem;
+}
+
+ol li {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.navigation {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

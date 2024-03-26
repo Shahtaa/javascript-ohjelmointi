@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem;
+}
+h1,
+ul,
+figure,
+figure img {
+  margin-block-end: 1rem;
+}
+h1 {
+  font-size: 2rem;
+}
+p {
+}
+ul {
+  font-size: 1.6rem;
+  list-style: disc;
+  margin-inline-start: 4rem;
+}
+
+figure {
+  margin-bottom: 2rem;
+}
+figure img {
+  max-width: 100%;
+}

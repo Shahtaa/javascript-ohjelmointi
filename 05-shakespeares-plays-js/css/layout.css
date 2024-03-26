@@ -1,0 +1,85 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+ul {
+  list-style: disc;
+  padding: 1rem 1rem 1rem 4rem;
+  /*list-style: 1.5; ????*/
+}
+h1,
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+table {
+  margin-bottom: 1rem;
+}
+tr {
+  line-height: 1.5;
+}
+td {
+  padding-right: 1rem;
+}
+
+h5 {
+  margin-bottom: 1rem;
+}
+
+.rinnakkain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 1rem;
+}
+.rinnakkain > * {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.rinnakkain li > ul {
+  background-color: #d3d3d3;
+  margin-top: 1rem;
+}
+
+.linkit {
+  color: #7a281f;
+  text-decoration: underline dotted 2px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.toka_table {
+  width: 100%;
+  table-layout: fixed;
+}
+.kolmas_table {
+  width: 66.66%;
+  table-layout: fixed;
+}
+
+.toka_table tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+.kolmas_table tr:nth-child(odd) {
+  background-color: #d3d3d3;
+}
+
+i.fa-file-pdf {
+  margin-left: 0.5rem;
+  color: #bd4738;
+}
+
+i.fa-envelope {
+  color: #bd4738;
+  padding-right: 0.5rem;
+}
+
+i.fa-arrow-up-right-from-square {
+  color: #84ab7f;
+  padding-right: 0.5rem;
+}

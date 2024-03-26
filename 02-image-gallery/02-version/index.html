@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <script defer src="./js/showPic.js"></script>
+  </head>
+  <body>
+    <h1>Snapshots - 2. versio</h1>
+    <ul>
+      <li>
+        <a
+          href="./img/js-gallery-fireworks.jpg"
+          title="A Fireworks display"
+          onClick="showPic(this);return false;"
+          >Fireworks</a
+        >
+      </li>
+      <li>
+        <a
+          href="./img/js-gallery-coffee.jpg"
+          title="A cup of Black Coffee"
+          onClick="showPic(this);return false;"
+          >Coffee</a
+        >
+      </li>
+      <li>
+        <a
+          href="./img/js-gallery-rose.jpg"
+          title="A red, red rose"
+          onClick="showPic(this);return false;"
+          >Rose</a
+        >
+      </li>
+      <li>
+        <a
+          href="./img/js-gallery-bigben.jpg"
+          title="The Famous clock"
+          onClick="showPic(this);return false;"
+          >Big Ben</a
+        >
+      </li>
+    </ul>
+    <figure>
+      <img
+        id="placeholder"
+        src="https://placehold.co/400x300?text=Etunimi+Sukunimi+placeholder"
+        alt=""
+      />
+    </figure>
+  </body>
+</html>

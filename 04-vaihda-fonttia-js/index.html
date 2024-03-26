@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./fonttikoko/css/reset.css" />
+    <link rel="stylesheet" href="./fonttikoko/css/layout.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grenze&family=Josefin+Sans&family=Mansalva&family=Turret+Road&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="section1">
+      <h1>Muuta fonttikokoa Javascriptillä</h1>
+      <p>Huom! Kaikki muutokset tapahtuvat Javascriptin avulla.</p>
+      <p>
+        Listan fonttikokoa muutetaan alla olevaa painonappia painamalla. Listan
+        oletusfonttikoko on 16px.
+      </p>
+      <h2>Tämän listan fonttikoko muuttuu napista painamalla.</h2>
+
+      <ol id="koko">
+        <li>Ensimmäinen napin painallus muuttaa fonttikooksi 20px</li>
+        <li>Toinen napin painallus muuttaa fonttikooksi 24px</li>
+        <li>Kolmas napin painallus muuttaa fonttikooksi 28px</li>
+        <li>Neljäs napin painallus muuttaa fonttikooksi 32px</li>
+        <li>Viides napin painallus muuttaa fonttikooksi 16px</li>
+      </ol>
+
+      <div class="navigation">
+        <p id="btn__size">Fontin koko</p>
+        <p class="font-size">
+          Fonttikoko nyt:
+          <span id="fontSizeValue">16 px</span>
+        </p>
+      </div>
+    </section>
+    <section id="section2">
+      <h1>Muuta fonttityyppiä Javascriptillä</h1>
+      <p>Huom! Kaikki muutokset tapahtuvat Javascriptin avulla.</p>
+      <p>
+        Listan fonttikokoa muutetaan alla olevaa painonappia painamalla. Listan
+        oletusfonttityyppi on "Courier New", fonttikoko 16px.
+      </p>
+      <p class="c">Mutta mitä tapahtuu, jos painat nappia 10 kertaa?</p>
+      <h2>Tämän listan fonttityyppi muuttuu napista painamalla</h2>
+
+      <ol id="fontti">
+        <li>Ensimmäinen napin painallus muuttaa fonttityypiksi "Roboto"</li>
+        <li>Toinen napin painallus muuttaa fonttityypiksi "Mansalva"</li>
+        <li>Kolmas napin painallus muuttaa fonttityypiksi "Grenze"</li>
+        <li>Neljäs napin painallus muuttaa fonttityypiksi "Turret Road"</li>
+        <li>Viides napin painallus muuttaa fonttityypiksi "Courier New"</li>
+      </ol>
+
+      <div class="navigation">
+        <p id="btn__family">Muuta fontti</p>
+        <p class="font-size">
+          Fontti on nyt:
+          <span id="fontTypeValue">Courier New</span>
+        </p>
+      </div>
+    </section>
+    <script src="./fonttikoko/js/scripts.js"></script>
+  </body>
+</html>
